@@ -10,4 +10,5 @@ We will create a simple server with flask to serve the neural network model for 
 keras functional api to get outputs of hidden layers in addition to the output layer.   
 2. Here we are not exploring the theory behind the functioning of neural networks.    
 3. Each box represents a node in a layer and the darker the node image, lower is the output of that node. So completely black would mean 0 and 
-completely white would mean 1.
+completely white would mean 1.   
+4. Here we are using the MNIST dataset to train the model.  
