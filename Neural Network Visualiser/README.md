@@ -15,3 +15,5 @@
 - The model server is created with flask.   
 - Now we use Keras functional API to create another model which will have same input as our original model model but it will have output of all the layers except from the input layer.   
 - Then, we rearrange the predictions a little bit. When we get a POST request we are gng to return a json object. And since we have a numpy array in the prediction, a json object cannot be created with that data. So we restructure our predictions into a list.  
+<br>
+<i> In the file ml_server.py I have created a reference to the session that is used for loading the models and then to set it to be used by keras in each request. Models should be loaded only after setting the session so that it works without any error</i>
